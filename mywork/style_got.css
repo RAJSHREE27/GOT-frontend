@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Garamond:300,400,700,900');
+
+* k{
+
+		box-sizing: border-box;
+		transition:all ease-in-out 250ms;
+	}
+body {	
+	margin: 0;
+	font-family: 'Garamond',sans-serif;
+	text-align: center;
+
+}
+
+
+
+
+	header{
+		position: absolute;
+		left: 0;
+		right: 0;
+	
+
+	}
+	nav{
+		background-color:#4d2600; 
+
+
+	}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em 2em;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+nav a:hover,
+nav a:focus :not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #ec9513;
+}
+
+header{
+	background-color: #111;
+	color: #d6d6c2;
+	
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+	float: left;
+
+
+}
+
+.container img{
+	margin: 0;
+	display: block;
+	white-space: nowrap;
+	width: 30%;
+	background-size: cover;
+	text-align: center;
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	padding-left: 0.5em;
+
+
+}
+
+
+
+.quote{
+	background-color: #331a00;
+	padding: 1em;
+	width:97%;
+	font-size: 100%;
+	outline: 2px solid #cc6600;
+	color:#d6d6c2;
+	position: relative;
+	text-align: center;
+	outline-offset:-1.0em;
+	float: left;
+	
+	
+}
+
+.img{
+	text-align: center;
+	font-size: 250%;
+
+}
+
+.overlay{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	overflow: hidden;
+	width: 20%;
+	height: 0;
+	transition: .5s ease;
+	background-color: #000000;
+	opacity: 0.8;
+}
+
+.img_1:hover .overlay{
+	height: 70%;
+}
+.img_2:hover .overlay{
+	height: 70%;
+}
+.img_3:hover .overlay{
+	height: 70%;
+}
+.img_4:hover .overlay{
+	height: 70%;
+}
+.img_5:hover .overlay{
+	height: 70%;
+}
+.img_6:hover .overlay{
+	height: 70%;
+}
+.img_7:hover .overlay{
+	height: 70%;
+}
+.img_8:hover .overlay{
+	height: 70%;
+}
+.img_9:hover .overlay{
+	height: 70%;
+}
+
+
+.text{
+	  white-space: nowrap; 
+	  color: white;
+	  font-size: 2vw;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 20%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+}
+
+.quote1{
+
+	background-color: #331a00;
+	padding: 1em ;
+	width:97%;
+	font-size: 110%;
+	outline: 2px solid #cc6600;
+	color:#d6d6c2;
+	position: relative;
+	text-align: center;
+	outline-offset:-1.0em;
+	float: left;
+	padding-bottom: 2em;
+
+}
+
+.last img{
+	width: 100;
+	height: auto;
+	float: left;
+}
+
+
+
